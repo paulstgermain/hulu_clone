@@ -31,3 +31,31 @@ ul {
 img {
   width: 100%;
 }
+
+.btn {
+  display: inline-block;
+  background: #FFFFFF;
+  color: #333333;
+  min-width: 135px;
+  padding: 20px 32px;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 14px;
+  border: none;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.legal-txt {
+  font-size: 10px;
+  color: #cccccc;
+  margin-top: 20px;
+}
+
+h4 {
+  color: #00ed82;
+  font-size: 13px;
+  text-transform: uppercase;
+}

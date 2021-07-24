@@ -12,13 +12,21 @@ const Navbar = () => {
 
 const StyledNav = styled.nav`
     width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 40px;
 
-    ul {
-        display: flex;
-        justify-content: flex-end;
+    ul li {
+        list-style: none;
 
-        li {
-            list-style: none;
+        button {
+            cursor: pointer;
+            background: none;
+            border: none;
+            color: #fff;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
         }
     }
 `
