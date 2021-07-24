@@ -4,7 +4,7 @@ const Navbar = () => {
     return (
         <StyledNav>
             <ul>
-                <li>Log In</li>
+                <li><button>Log In</button></li>
             </ul>
         </StyledNav>
     )
