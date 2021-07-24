@@ -6,10 +6,28 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+html,
 body {
   font-family: 'Rubik', sans-serif;
   background: #000000;
   color: #FFFFFF;
   line-height: 1.7;
   overflow-x: hidden;
+}
+
+a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #cccccc;
+}
+
+ul {
+  list-style-type: none;;
+}
+
+img {
+  width: 100%;
 }
