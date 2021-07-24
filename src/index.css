@@ -6,7 +6,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: 'Rubik', sans-serif;
+  background: #000000;
+  color: #FFFFFF;
+  line-height: 1.7;
+  overflow-x: hidden;
 }
