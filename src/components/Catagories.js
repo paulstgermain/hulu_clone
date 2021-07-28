@@ -1,4 +1,8 @@
 import styled from 'styled-components';
+import cover1 from '../img/cover-1.jpg';
+import cover2 from '../img/cover-2.jpg';
+import cover3 from '../img/cover-3.jpg';
+import cover4 from '../img/cover-4.jpg';
 
 const Catagories = () => {
     return (
@@ -63,12 +67,40 @@ const StyledCatagories = styled.section`
     }
 
     .cover-grad {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
         background: linear-gradient(
             156.82deg,
             rgba(0, 0, 0, 0.6) 4.58%,
             rgba(0, 0, 0, 0) 69.61%
         ),
         linear-gradient(24.5deg, rgba(0, 0, 0, 0.2) 4.71%, rgba(0, 0, 0, 0) 71.49%);
+    }
+
+    .cover-1 {
+        background: url(${cover1}) no-repeat center center / cover;
+    }
+
+    .cover-2 {
+        background: url(${cover2}) no-repeat center center / cover;
+    }
+
+    .cover-3 {
+        background: url(${cover3}) no-repeat center center / cover;
+    }
+
+    .cover-4 {
+        background: url(${cover4}) no-repeat center center / cover;
+    }
+
+    .cover-txt {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        text-align: left;
     }
 
 
