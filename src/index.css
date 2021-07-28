@@ -64,3 +64,14 @@ h4 {
   font-size: 13px;
   text-transform: uppercase;
 }
+
+.text-xl {
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.sub-txt {
+  max-width: 850px;
+  margin-bottom: 10px;
+  font-size: 24px;
+}
