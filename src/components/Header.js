@@ -63,6 +63,14 @@ no-repeat center center / cover;
             text-align: center;
             padding: 0 20px;
         }
+
+        .header-txt-1 {
+            margin-bottom: 40px;
+        }
+
+        .header-txt-2 {
+            display: none;
+        }
     }
 
 `
