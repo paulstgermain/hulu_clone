@@ -32,9 +32,18 @@ const StyledSubheader = styled.section`
         #08141f 100%
     );
 
+    div:last-of-type {
+        justify-self: end;
+        align-self: end;
+    }
+    
+    div:last-of-type .sub-link {
+        text-align: center;
+    }
+
     img {
         width: 300px;
-        height: 65px;
+        /* height: 65px; */
 
     }
 
@@ -46,6 +55,38 @@ const StyledSubheader = styled.section`
         background: none;
         border: 2px solid #FFFFFF;
         color: #FFFFFF;
+        width: 175px;
+
+        &:hover {
+            color: #FFFFFF;
+            border-color: rgba(250, 250, 250, 0.5);
+        }
+    }
+
+    .sub-link {
+        display: block;
+        color: #cccccc;
+        font-size: 12px;
+        margin-top: 5px;
+        text-decoration: underline;
+    }
+
+    /* Media Queries */
+
+    @media(max-width: 736px) {
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 20px;
+
+        img {
+            width: 250px;
+            margin: auto;
+        }
+
+        div:last-of-type {
+            justify-self: center;
+            align-self: center;
+        }
     }
 `
 
