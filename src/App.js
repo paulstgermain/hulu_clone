@@ -3,6 +3,7 @@ import './App.css';
 import Header from './components/Header';
 import Subheader from './components/Subheader';
 import Catagories from './components/Catagories';
+import LiveTV from './components/LiveTV';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Header />
         <Subheader />
         <Catagories />
+        <LiveTV />
       </header>
     </div>
   );

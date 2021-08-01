@@ -63,14 +63,6 @@ const StyledSubheader = styled.section`
         }
     }
 
-    .sub-link {
-        display: block;
-        color: #cccccc;
-        font-size: 12px;
-        margin-top: 5px;
-        text-decoration: underline;
-    }
-
     /* Media Queries */
 
     @media(max-width: 736px) {
