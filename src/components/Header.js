@@ -5,7 +5,7 @@ import headerimg from '../img/header.jpg';
 
 const Header = () => {
     return (
-        <StyledHeader>
+        <StyledHeader className='header'>
             <Navbar />
             <div class="header-content">
                 <h4>Try up to one month free</h4>
@@ -23,6 +23,22 @@ const StyledHeader = styled.div`
 height: 530px;
 background: url(${headerimg})
 no-repeat center center / cover;
+
+&:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 180px;
+    z-index: 1;
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.76) 15.54%,
+        rgba(0, 0, 0, 0.192) 60.23%,
+        rgba(0, 0, 0, 8e-5) 100%
+    );
+}
 
     .header-content {
         display: flex;

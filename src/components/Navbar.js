@@ -15,6 +15,8 @@ const StyledNav = styled.nav`
     display: flex;
     justify-content: flex-end;
     padding: 20px 40px;
+    position: relative;
+    z-index: 2;
 
     ul li {
         list-style: none;
