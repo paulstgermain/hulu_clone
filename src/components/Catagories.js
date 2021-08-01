@@ -103,7 +103,26 @@ const StyledCatagories = styled.section`
         text-align: left;
     }
 
+    @media(max-width: 1100px) {
+        .covers {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
 
+    @media (max-width: 768px) {
+        .text-xl {
+            line-height: 1.3;
+            font-size: 40px;
+        }
+
+        .sub-txt {
+            font-size: 20px;
+        }
+
+        .covers {
+            grid-template-columns: 1fr;
+        }
+    }
 `
 
 export default Catagories;
