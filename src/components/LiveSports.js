@@ -68,6 +68,17 @@ const StyledLiveSports = styled.section`
 
     @media(max-width: 736px) {
         background: url(${liveSportsBgSm}) no-repeat center center / cover;
+
+        .text-xl {
+            line-height: 1.3;
+            font-size: 40px;
+        }
+
+        .live-sports-content {
+            top: 30px;
+            left: 30px;
+            margin-top: 60px;
+        }
     }
 `
 
