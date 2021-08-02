@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Subheader from './components/Subheader';
 import Catagories from './components/Catagories';
 import LiveTV from './components/LiveTV';
+import LiveSports from './components/LiveSports';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Subheader />
         <Catagories />
         <LiveTV />
+        <LiveSports />
       </header>
     </div>
   );
